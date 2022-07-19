@@ -1,0 +1,17 @@
+{
+  "name": "groziosalonas.lt",
+  "description": "",
+  "main": "",
+  "authors": [
+    "sofijuxsa <sofijuxsa@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sofijuxsa/groziosalonas.lt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
