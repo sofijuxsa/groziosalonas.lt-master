@@ -31,7 +31,7 @@ class BookingController extends Controller
         $client->phone_number = $request->post('phone_number');
         $client->save();
 
-        return view('home');
+        return redirect()->back()->with('message', 'Sėkmingai užsiregistravote!');
     }
 
     public function create()

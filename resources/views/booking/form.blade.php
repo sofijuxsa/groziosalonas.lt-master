@@ -138,6 +138,11 @@
                                         <button type="submit" class="btn btn-primary">Rezervuoti</button>
                                     </div>
                                 </div>
+                                @if(session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('message') }}
+                                    </div>
+                                @endif
                             </div>
                         </form>
                     </div>
